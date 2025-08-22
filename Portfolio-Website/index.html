@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <style>
+      .services-list {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .services-list div {
+        flex: 1 1 22%;
+        min-width: 220px;
+        background: #111;
+        color: #fff;
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        transition: 0.3s;
+      }
+      .services-list div:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <nav class="navbar">
+        <a href="#home" style="--i: 1" class="active">Home</a>
+        <a href="#about" style="--i: 2">About</a>
+        <a href="#services" style="--i: 3">Skills</a>
+        <a href="#project" style="--i: 4">Projects</a>
+        <a href="#contact" style="--i: 5">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Akshat Gupta...</h1>
+        <h3>And I'm a <span class="text"></span></h3>
+        <p>
+          I'm a second-year BTech student specializing in data science. I am
+          actively engaged in a course focused on backend development. With a
+          strong foundation in Python, Java as well as Data Structures and
+          Algorithms (DSA), I have made real-world projects, particularly in
+          Python programming. I am also keen on problem-solving.
+        </p>
+        <div class="home-scl">
+          <a href="https://www.instagram.com/ak_gupta357" style="--i: 8"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a
+            href="https://wa.me/9027278481"
+            class="icon-link icon-link-9"
+            title="WhatsApp"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/akshat-gupta-243460280"
+            style="--i: 10"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/AK-GUPTA-20" style="--i: 11"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+        <a href="#about" class="btn-box">More About Me</a>
+        <a
+          href="https://drive.google.com/file/d/1gu1xkWKGXSih-3Y93eaykflnfKwUyEx0/view?usp=drive_link"
+          download
+          class="btn-box"
+          style="margin-left: 10px; background: #00c6ff"
+        >
+          Download Resume
+        </a>
+      </div>
+      <span class="home-imgHover"></span>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./images/About.png" alt="About Me" />
+      </div>
+      <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <h4>Ready to become a Data Scientist!</h4>
+        <p>
+          Hello, I'm Akshat Gupta, from Saharanpur. Currently, I am a
+          second-year BTech student specializing in data science at Galgotias
+          University. Alongside my academic pursuits, I am actively engaged in a
+          course focused on backend development. With a strong foundation in
+          Python, Java, and C languages, as well as Data Structures and
+          Algorithms (DSA), I have been applying my skills to real-world
+          projects. My ambition is to build a career as a data scientist. In
+          addition to technical proficiency, I am also keen on problem-solving.
+        </p>
+        <a href="#contact" class="btn-box">Contact Me</a>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="services" id="services">
+      <div class="container">
+        <h1 class="sub-title">My <span>Skills</span></h1>
+        <div class="services-list">
+          <div>
+            <i class="bx bx-code-alt"></i>
+            <h2>Backend Developer</h2>
+            <p>
+              Specializing in backend development with experience in Python
+              programming and data science projects.
+            </p>
+            <a href="#" class="read">Learn More</a>
+          </div>
+          <div>
+            <i class="bx bxl-python" style="color: #00eeff"></i>
+            <h2>Python</h2>
+            <p>
+              Strong foundation in Python programming, applied to various data
+              science and backend projects.
+            </p>
+            <a href="#" class="read">Learn More</a>
+          </div>
+          <div>
+            <i class="bx bxl-java" style="color: #f89820"></i>
+            <h2>Java</h2>
+            <p>
+              Proficient in Java programming with a solid understanding of data
+              structures and algorithms.
+            </p>
+            <a href="#" class="read">Learn More</a>
+          </div>
+          <div>
+            <i class="bx bxl-react" style="color: #00d8ff"></i>
+            <h2>MERN</h2>
+            <p>
+              MERN is a full-stack JavaScript framework (MongoDB, Express.js,
+              React, Node.js) that lets you build modern web apps with a single
+              language, end-to-end.
+            </p>
+            <a href="#" class="read">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <h1 class="sub-title">Technical <span>Skills...</span></h1>
+
+    <section>
+      <div class="container1" id="skills">
+        <h1 class="heading1">Technical Skills</h1>
+        <div class="Technical-bars">
+          <div class="bar">
+            <i style="color: #306998" class="bx bxl-css3"></i>
+            <div class="info">
+              <span style="width: 75%">Python</span>
+            </div>
+            <div class="progress-line css">
+              <span style="width: 75%"></span>
+            </div>
+          </div>
+          <br />
+          <div class="bar">
+            <i style="color: #b07219" class="bx bxl-css3"></i>
+            <div class="info">
+              <span style="width: 80%">Java</span>
+            </div>
+            <div class="progress-line css">
+              <span style="width: 80%"></span>
+            </div>
+          </div>
+          <br />
+          <div class="bar">
+            <i style="color: #a8b9cc" class="bx bxl-c"></i>
+            <div class="info">
+              <span style="width: 70%">C</span>
+            </div>
+            <div class="progress-line c">
+              <span style="width: 70%"></span>
+            </div>
+          </div>
+          <br />
+          <div class="bar">
+            <i style="color: #e34c26" class="bx bxl-html5"></i>
+            <div class="info">
+              <span style="width: 30%">HTML</span>
+            </div>
+            <div class="progress-line html">
+              <span style="width: 30%"></span>
+            </div>
+          </div>
+          <br />
+          <div class="bar">
+            <i style="color: #264de4" class="bx bxl-css3"></i>
+            <div class="info">
+              <span>CSS</span>
+            </div>
+            <div class="progress-line css">
+              <span style="width: 30%"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container1">
+        <h1 class="heading1">Professional Skills</h1>
+        <div class="radial-bars">
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">90%</div>
+            <div class="text">Creativity</div>
+          </div>
+
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">80%</div>
+            <div class="text">Communication</div>
+          </div>
+
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">75%</div>
+            <div class="text">Team Work</div>
+          </div>
+
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">85%</div>
+            <div class="text">Project Management</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="portfolio" id="project">
+        <div class="main-text" id="project">
+          <h2>Latest <span>Project</span></h2>
+
+          <div class="portfolio-content">
+            <div class="row">
+              <img src="./images/Project1.png" />
+              <div class="layer">
+                <h5>Weather App</h5>
+                <p>
+                  The Weather Detection project is designed to provide real-time
+                  weather information based on user inputs such as location or
+                  city name. It utilizes APIs (Application Programming
+                  Interfaces) provided by weather services to fetch and display
+                  current weather conditions and forecasts.
+                </p>
+                <a href="#"
+                  ><i class="bx bx-link-external" style="color: aliceblue"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="row">
+              <img src="./images/Project2.png" />
+              <div class="layer">
+                <h5>To-Do List</h5>
+                <p>
+                  The To-Do List project is a web application designed to help
+                  users organize and manage their tasks effectively. This
+                  project utilizes HTML, CSS, and JavaScript to create an
+                  interactive user interface for adding, editing, and deleting
+                  tasks.
+                </p>
+                <a href="#"
+                  ><i class="bx bx-link-external" style="color: aliceblue"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="row">
+              <img src="./images/Project3.png" alt="MERN Enquiry Form" />
+              <div class="layer">
+                <h5>MERN Enquiry Form</h5>
+                <p>
+                  The MERN Enquiry Form is a full-stack project built using
+                  MongoDB, Express.js, React, and Node.js. It allows users to
+                  submit enquiries with their details (name, email, phone, and
+                  message), stores the data in a database, and displays the
+                  enquiry list with options to edit or delete records.
+                </p>
+                <a href="#"
+                  ><i class="bx bx-link-external" style="color: aliceblue"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact <span>Me</span></h2>
+        <h4>Let's Work Together</h4>
+        <p>Think your Idea And Enter it... and Lets's do it...!</p>
+        <div class="contact-list">
+          <li><i class="bx bxs-send"></i>guptaakshat7795@gmail.com</li>
+          <li><i class="bx bx-phone"></i>9027278481</li>
+        </div>
+        <div class="contact-icons">
+          <a
+            href="https://www.instagram.com/ak_gupta357?igsh=MXgwcWI3cjBmcGF0eg=="
+            style="--i: 8"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a
+            href="https://wa.me/9027278481?text=for%20whatsapp%0A"
+            style="--i: 9"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/akshat-gupta-243460280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            style="--i: 10"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/AK-GUPTA-20" style="--i: 11"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <form action="">
+          <input type="text" placeholder="Enter Your Name" required />
+          <input type="email" placeholder="Enter Your Email" required />
+
+          <input type="" placeholder="Enter Your Subject" />
+
+          <textarea
+            name=""
+            id=""
+            cols="40"
+            rows="10"
+            placeholder="Enter Your Message"
+            required
+          ></textarea>
+
+          <input type="submit" value="submit" class="send" />
+        </form>
+      </div>
+    </section>
+    <div class="last-text">
+      <p>Developed By Akshat Gupta....</p>
+    </div>
+    <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+
+    <script src="main.js"></script>
+  </body>
+</html>
